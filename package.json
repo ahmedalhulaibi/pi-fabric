@@ -74,6 +74,9 @@
   },
   "dependencies": {
     "@earendil-works/pi-ai": "0.84.1",
+    "@earendil-works/pi-coding-agent": "0.84.1",
+    "@earendil-works/pi-tui": "0.84.1",
+    "@types/cross-spawn": "^6.0.6",
     "@jitl/quickjs-singlefile-mjs-release-sync": "^0.32.0",
     "cross-spawn": "^7.0.6",
     "diff": "^9.0.0",
@@ -89,9 +92,6 @@
     "@earendil-works/pi-tui": ">=0.80.6"
   },
   "devDependencies": {
-    "@earendil-works/pi-coding-agent": "0.84.1",
-    "@earendil-works/pi-tui": "0.84.1",
-    "@types/cross-spawn": "^6.0.6",
     "@types/node": "^26.1.2",
     "knip": "^6.29.0",
     "vitest": "^4.1.10"
